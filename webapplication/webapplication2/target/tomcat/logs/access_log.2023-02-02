@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:32:31 -0800] "GET / HTTP/1.1" 200 286 http-bio-8080-exec-1 107
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:32:31 -0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:32:44 -0800] "POST /login.do HTTP/1.1" 200 307 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:33:06 -0800] "POST /login.do HTTP/1.1" 200 81 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:35:36 -0800] "POST /login.do HTTP/1.1" 500 1478 http-bio-8080-exec-8 23
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:35:53 -0800] "POST / HTTP/1.1" 500 1478 http-bio-8080-exec-10 18
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:37:42 -0800] "POST / HTTP/1.1" 500 1478 http-bio-8080-exec-2 40
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:37:51 -0800] "GET / HTTP/1.1" 200 286 http-bio-8080-exec-3 49
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:40:48 -0800] "GET /BasicServlet HTTP/1.1" 200 84 http-bio-8080-exec-6 32
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:41:30 -0800] "POST /BasicServlet HTTP/1.1" 201 - http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:41:53 -0800] "GET /BasicServlet HTTP/1.1" 200 93 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:42:44 -0800] "POST /BasicServlet?id=3&description=The%20third%20todo HTTP/1.1" 201 - http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:42:49 -0800] "GET /BasicServlet?id=3&description=The%20third%20todo HTTP/1.1" 200 93 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:43:26 -0800] "POST /BasicServlet HTTP/1.1" 201 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [02/Feb/2023:21:43:30 -0800] "GET /BasicServlet HTTP/1.1" 200 133 http-bio-8080-exec-3 1
